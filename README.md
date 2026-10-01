@@ -11,7 +11,7 @@
 
 ---
 
-### 📥 لینک‌های مستقیم دانلود آخرین نسخه (v1.0.2)
+### 📥 لینک‌های مستقیم دانلود آخرین نسخه (v1.0.3)
 
 #### 📱 اندروید (Android)
 * ⚡ **[دانلود نسخه کامل و جامع (Universal APK)](https://github.com/y3fd/strongvpn-releases/releases/latest/download/StrongVPN-Universal.apk)** — سازگار با تمام دستگاه‌ها و پردازنده‌های اندروید
