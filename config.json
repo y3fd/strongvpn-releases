@@ -1,10 +1,10 @@
 {
-  "version": 5,
+  "version": 6,
   "app": {
-    "latest_version": "1.5.0",
-    "min_version": "1.5.0",
-    "apk_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.5.0/StrongVPN-arm64-v1.5.0.apk",
-    "apk_arm64_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.5.0/StrongVPN-arm64-v1.5.0.apk"
+    "latest_version": "1.6.0",
+    "min_version": "1.6.0",
+    "apk_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.6.0/StrongVPN-arm64-v1.6.0.apk",
+    "apk_arm64_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.6.0/StrongVPN-arm64-v1.6.0.apk"
   },
   "announcement": {
     "id": 1001,
