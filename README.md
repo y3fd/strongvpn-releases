@@ -1,4 +1,4 @@
-# Strong VPN Official Releases
+<h1 align="center">Strong VPN — Official Releases</h1>
 
 <p align="center">
   <img src="app_logo.png" alt="Strong VPN Logo" width="160" style="border-radius: 28px;" />
@@ -6,26 +6,74 @@
 
 <p align="center">
   <b>اپلیکیشن قدرتمند، هوشمند و پرسرعت Strong VPN</b><br>
-  نگارش رسمی برای سیستم‌عامل‌های اندروید (Android) و ویندوز (Windows)
+  نگارش رسمی برای اندروید (Android)
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.7.3-10D876" alt="version" />
+  <img src="https://img.shields.io/badge/platform-Android%208%2B-3DDC84" alt="android" />
+  <img src="https://img.shields.io/badge/core-Xray%20v26.10.21-5A67D8" alt="core" />
 </p>
 
 ---
 
-### 📥 لینک‌های مستقیم دانلود آخرین نسخه رسمی (v1.0.0)
+## 📥 دانلود آخرین نسخه (v1.7.3)
 
-#### 📱 اندروید (Android)
-* 🚀 **[دانلود نسخه سبک و پرسرعت ARM64 (پیشنهادی)](https://github.com/y3fd/strongvpn-releases/releases/latest/download/StrongVPN-arm64.apk)** — بهینه‌شده برای گوشی‌های مدرن (سامسونگ، شیائومی، هواوی و...)
-* ⚡ **[دانلود نسخه کامل و جامع (Universal APK)](https://github.com/y3fd/strongvpn-releases/releases/latest/download/StrongVPN-Universal.apk)** — سازگار با تمام دستگاه‌ها و پردازنده‌های اندروید
+> این لینک‌ها همیشه به **آخرین نسخهٔ منتشرشده** اشاره می‌کنند و با هر آپدیت به‌روز می‌شوند.
 
-#### 💻 ویندوز (Windows)
-* 🖥️ **[دانلود نسخه نصبی ویندوز (Setup.exe)](https://github.com/y3fd/strongvpn-releases/releases/latest/download/StrongVPN-Setup.exe)** — همراه با ساخت میانبر دسکتاپ و مدیریت خودکار شبکه
-* 📦 **[دانلود نسخه پرتابل ویندوز (Portable.zip)](https://github.com/y3fd/strongvpn-releases/releases/latest/download/StrongVPN-Windows-Portable.zip)** — بدون نیاز به نصب، آماده اجرای فوری
+| نسخه | مناسب برای | لینک |
+|---|---|---|
+| 🚀 **ARM64** (پیشنهادی) | اکثر گوشی‌های امروزی — سامسونگ، شیائومی، هواوی، پیکسل | **[دانلود](https://github.com/y3fd/strongvpn-releases/releases/latest/download/StrongVPN-arm64.apk)** |
+| ⚡ **ARMv7 (۳۲ بیتی)** | گوشی‌های قدیمی‌تر و ارزان‌قیمت | **[دانلود](https://github.com/y3fd/strongvpn-releases/releases/latest/download/StrongVPN-armeabi-v7a.apk)** |
+| 💻 **x86_64** | شبیه‌ساز اندروید و تبلت‌های اینتل | **[دانلود](https://github.com/y3fd/strongvpn-releases/releases/latest/download/StrongVPN-x86_64.apk)** |
+| 🔐 **چک‌سام SHA-256** | بررسی صحت فایل دانلودشده | **[دانلود](https://github.com/y3fd/strongvpn-releases/releases/latest/download/SHA256SUMS.txt)** |
+
+**نصب:** فایل APK را باز کنید، اجازهٔ «نصب از منابع ناشناس» را بدهید، سپس در اولین اجرا درخواست مجوز VPN را تأیید کنید.
 
 ---
 
-### ✨ قابلیت‌ها و امکانات برجسته:
-* **⚡ اتصال هوشمند (Smart Connect):** سنجش خودکار پینگ واقعی تمام سرورها و اتصال به خلوت‌ترین سرور
-* **🛡️ هسته قدرتمند و ضد فیلترینگ:** پشتیبانی کامل از پروتکل‌های امن VLESS, VMess, Trojan و ShadowSocks (هسته Xray-core v26.10.21)
-* **📱 مدیریت هوشمند سخت‌افزار (HWID Management):** مدیریت یکپارچه و تفکیک دستگاه‌های مجاز کاربر
-* **🔀 تونل‌بندی انتخابی (Split Tunneling):** امکان جداسازی برنامه‌های بانکی و داخلی از فیلترشکن
-* **📷 ورود آسان:** فعال‌سازی آنی اشتراک و بارگذاری سرورها با اسکن QR یا لینک
+## ✨ تازه در نسخهٔ ۱.۷.۳
+
+- **پینگ واقعی از مسیر هر سرور:** تأخیر با یک درخواست واقعی HTTP از داخل تونل اندازه‌گیری می‌شود (روش `urltest` در sing-box/Hiddify)، نه handshake خام TCP. عددی که می‌بینید همان چیزی است که تجربه می‌کنید.
+- **کش هوشمند نتایج:** تأخیر موفق ۵ دقیقه و خطا ۴۵ ثانیه کش می‌شود؛ اتصال‌های بعدی فوری‌اند و باتری کمتری مصرف می‌شود.
+- **حداکثر ۴ سرور همزمان** تست می‌شوند تا روی گوشی‌های ضعیف فشار نیاید؛ تست هنگام اتصال فعال انجام نمی‌شود.
+- **تلورانس ۶۰ میلی‌ثانیه:** سرور فعلی برای اختلاف ناچیز عوض نمی‌شود (پایان نوسان بین سرورها).
+- **زنجیرهٔ جایگزین:** اگر سرور اول وصل نشود، تا سه سرور بعدی به ترتیب امتحان می‌شوند.
+
+---
+
+## ✨ قابلیت‌ها
+
+- **⚡ اتصال هوشمند:** سنجش خودکار تأخیر همهٔ سرورها و اتصال به سریع‌ترین سرور در دسترس
+- **🛡️ هستهٔ Xray-core v26.10.21:** پشتیبانی کامل از VLESS / VMess / Trojan / Shadowsocks با Reality، TLS، WS، gRPC و XHTTP
+- **🔁 Failover خودکار:** پس از سه خطای پیاپی سلامت یا قطع ناگهانی، سرور عوض می‌شود — با فاصلهٔ ۹۰ ثانیه‌ای برای جلوگیری از چشمک‌زدن
+- **🔀 Split Tunneling:** جدا کردن اپ‌های بانکی و داخلی از مسیر تونل
+- **📱 مدیریت دستگاه‌ها (HWID):** کنترل تعداد دستگاه‌های مجاز هر اشتراک
+- **📷 افزودن آسان:** اسکن QR یا وارد کردن لینک اشتراک
+- **🌐 چندزبانه:** فارسی و انگلیسی، با تاریخ شمسی
+
+---
+
+## 🧾 تاریخچهٔ نسخه‌ها
+
+- **v1.7.3** — سنجش تأخیر واقعی + کش + تلورانس انتخاب سرور، پایان نوسان اتصال
+- **v1.7.2** — کول‌داون ۹۰ ثانیه‌ای سوییچ خودکار، رفع چشمک‌زدن نشان VPN، بازسازی تونل پس از تغییر شبکه
+- **v1.7.1** — انطباق امنیتی گوگل‌پلی (foreground service type، حذف QUERY_ALL_PACKAGES، مسدودکردن cleartext)
+- **v1.7.0** — ارتقای هستهٔ Xray به v26.11.9، پایداری اتصال، حذف اسپیکر TTS
+
+---
+
+## 🔐 امنیت
+
+- تمام بیلدها با **کلید رسمی پروژه** امضا می‌شوند (نه امضای debug).
+- صحت فایل را می‌توانید با `SHA256SUMS.txt` بررسی کنید:
+
+```bash
+sha256sum -c SHA256SUMS.txt
+```
+
+- هیچ کلید، پسورد یا اطلاعات سروری در این مخزن و در مخزن سورس نگهداری نمی‌شود.
+
+---
+
+<p align="center"><b>ساخته‌شده با Flutter + Xray-core</b></p>
