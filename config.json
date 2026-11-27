@@ -1,11 +1,12 @@
 {
-  "version": 10,
+  "version": 11,
   "app": {
-    "latest_version": "1.7.5",
+    "latest_version": "1.7.6",
     "min_version": "1.7.2",
-    "apk_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.7.5/StrongVPN-arm64-v1.7.5.apk",
-    "apk_arm64_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.7.5/StrongVPN-arm64-v1.7.5.apk",
-    "apk_arm7_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.7.5/StrongVPN-arm7-v1.7.5.apk"
+    "apk_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.7.6/StrongVPN-arm64-v1.7.6.apk",
+    "apk_arm64_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.7.6/StrongVPN-arm64-v1.7.6.apk",
+    "apk_arm7_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.7.6/StrongVPN-arm7-v1.7.6.apk",
+    "apk_universal_url": "https://github.com/y3fd/strongvpn-releases/releases/download/v1.7.6/StrongVPN-universal-v1.7.6.apk"
   },
   "announcement": {
     "id": 1001,
